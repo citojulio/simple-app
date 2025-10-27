@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = 'tuancito/simple-app'              // Ganti 'awanmh' dengan username Docker Hub kalian
+    IMAGE_NAME = 'tuancito/simple-app'
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
 
